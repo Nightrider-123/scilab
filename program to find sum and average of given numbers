@@ -1,0 +1,10 @@
+lc;clear all;clf;
+a=input('enter the value of  limit ');
+sum=0;
+for x=1:1:a
+    b= input('enter the value');
+    sum=sum+b;
+end
+average= sum/a;
+disp(sum)
+disp(average)
