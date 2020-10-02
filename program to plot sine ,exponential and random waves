@@ -1,0 +1,21 @@
+clc;clear all;clf;
+x=1:0.01:5;
+y=sin(x)
+xlabel('x')
+ylabel('y')
+subplot(321)
+plot(x,y,'ro')
+//exp
+x=1:.01:5;
+y=exp(x)
+xlabel('x')
+ylabel('y')
+subplot(322)
+plot(x,y,'bo')
+//exp
+x=0:.01:5;
+y=rand(x)
+xlabel('x')
+ylabel('y')
+subplot(323)
+plot(x,y,'mo')
